@@ -6,9 +6,9 @@ I could give you a hand full of code examples. This should help you to communica
 
 Generating a TCPIP object:
 
-tcpObject = tcpip(192.168.1.100,Port Number) %concerning to the manual the IP Address is fixed
+tcpObject = tcpip('192.168.1.100',21845) %concerning to the manual the IP Address is fixed
 
-fopen(tcoObject);
+fopen(tcpObject);
 
 to send a command to the LC use following code:
 
