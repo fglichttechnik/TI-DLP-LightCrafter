@@ -21,9 +21,9 @@ imData3 = fread( imFile3, inf, 'uchar' );
 fclose( imFile3 );
 
 %load file
-imFile = fopen( 'im.bmp' );
-imData = fread( imFile, inf, 'uchar' );
-fclose( imFile );
+% imFile = fopen( 'im.bmp' );
+% imData = fread( imFile, inf, 'uchar' );
+% fclose( imFile );
 
 %test light crafter
 L=LightCrafter()

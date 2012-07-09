@@ -1,4 +1,0 @@
-function tcpCallback( tcpObject )
-
-
-disp()
